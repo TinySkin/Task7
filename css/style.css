@@ -1,0 +1,113 @@
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Open Sans', sans-serif; */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #183153;
+  }
+  
+  p {
+    line-height: 32px;
+  }
+  
+  /*
+  * Utility classes 
+  */
+  .text-center {
+    text-align: center;
+  }
+  
+  /*
+  * Content classes 
+  */
+  
+  .navbar-brand {
+    max-width: 960px;
+    margin: auto;
+    flex-direction: column;
+  }
+  
+  .collapse {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  .navbar-brand {
+    margin-right: auto;
+    font-family: 'Festive', cursive;
+    color: #183153;
+    text-decoration: none;
+    font-size: 64px;
+    
+  }
+  
+  .navigation a {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  
+  .navbar {
+    background: rgb(5, 70, 16);
+    background: linear-gradient(
+      90deg,
+      rgb(0, 36, 22) 0%,
+      rgb(9, 121, 93) 35%,
+      rgb(0, 255, 76) 100%
+    );
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 12px;
+  }
+  
+  .test2 p {
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .test3 {
+    padding-left: 16px;
+    padding-right: 16px;
+    order: 1;
+  }
+  
+  .features {
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .features {
+      display: flex;
+    }
+    .main-content {
+      display: flex;
+    }
+  }
+  
+  .feature > i {
+    font-size: 48px;
+  }
+  
+  .feature {
+    margin-top: 48px;
+    flex-basis: 33%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 20px;
+  }
+  
+  footer.footer {
+    background: #183153;
+    color: white;
+    margin-top: 56px;
+    padding: 64px 0;
+    order: 2;
+  }
+
